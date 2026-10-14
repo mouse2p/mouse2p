@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" font-family="'Helvetica Neue', Helvetica, Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <linearGradient id="jbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1b2a"/>
+      <stop offset="1" stop-color="#14213a"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="430" rx="10" fill="url(#jbg)"/>
+  <text x="450" y="42" text-anchor="middle" font-size="19" font-weight="700" fill="#f5f7fa">两个旗舰项目的构建旅程 · Two Flagship Journeys</text>
+  <text x="450" y="64" text-anchor="middle" font-size="12" fill="#8b98a9">从信号到对话：一条识别之路，一条轮次之路</text>
+
+  <!-- Track 1: EchoScribe -->
+  <text x="40" y="112" font-size="15" font-weight="700" fill="#4a9eff">EchoScribe</text>
+  <text x="40" y="130" font-size="11" fill="#8b98a9">流式语音识别工作台</text>
+  <line x1="150" y1="118" x2="865" y2="118" stroke="#4a9eff" stroke-opacity="0.45" stroke-width="2"/>
+  <g fill="#4a9eff">
+    <circle cx="180" cy="118" r="5.5"/><circle cx="290" cy="118" r="5.5"/>
+    <circle cx="400" cy="118" r="5.5"/><circle cx="510" cy="118" r="5.5"/>
+    <circle cx="620" cy="118" r="5.5"/><circle cx="730" cy="118" r="5.5"/>
+    <circle cx="840" cy="118" r="5.5"/>
+  </g>
+  <g font-size="11" fill="#d5dde8" text-anchor="middle">
+    <text x="180" y="98">音频前端</text><text x="180" y="146" fill="#8b98a9" font-size="10">fbank · CMVN · 重采样</text>
+    <text x="290" y="98">合成声学实验室</text><text x="290" y="146" fill="#8b98a9" font-size="10">formant · 四声调 · 植入转写</text>
+    <text x="400" y="98">码切换分词</text><text x="400" y="146" fill="#8b98a9" font-size="10">BPE · 字符级 · 混合脚本</text>
+    <text x="510" y="98">Transducer / CTC 解码</text><text x="510" y="146" fill="#8b98a9" font-size="10">prefix-beam · 标签同步</text>
+    <text x="620" y="98">流式运行时</text><text x="620" y="146" fill="#8b98a9" font-size="10">延迟预算 · 端点检测 · 热词</text>
+    <text x="730" y="98">抗噪前端</text><text x="730" y="146" fill="#8b98a9" font-size="10">谱减 · Wiener · SNR 实测</text>
+    <text x="840" y="98">评估与报告</text><text x="840" y="146" fill="#8b98a9" font-size="10">WER/CER · RTF · SVG</text>
+  </g>
+
+  <!-- Track 2: EchoParley -->
+  <text x="40" y="262" font-size="15" font-weight="700" fill="#e0a83c">EchoParley</text>
+  <text x="40" y="280" font-size="11" fill="#8b98a9">端到端语音对话框架</text>
+  <line x1="150" y1="268" x2="865" y2="268" stroke="#e0a83c" stroke-opacity="0.45" stroke-width="2"/>
+  <g fill="#e0a83c">
+    <circle cx="180" cy="268" r="5.5"/><circle cx="290" cy="268" r="5.5"/>
+    <circle cx="400" cy="268" r="5.5"/><circle cx="510" cy="268" r="5.5"/>
+    <circle cx="620" cy="268" r="5.5"/><circle cx="730" cy="268" r="5.5"/>
+    <circle cx="840" cy="268" r="5.5"/>
+  </g>
+  <g font-size="11" fill="#d5dde8" text-anchor="middle">
+    <text x="180" y="248">语义语音单元</text><text x="180" y="296" fill="#8b98a9" font-size="10">k-means · VQ（torch 可选）</text>
+    <text x="290" y="248">统一 token 流</text><text x="290" y="296" fill="#8b98a9" font-size="10">文本+语音交织 · 轮次控制符</text>
+    <text x="400" y="248">合成对话实验室</text><text x="400" y="296" fill="#8b98a9" font-size="10">植入轮次结构 · 打断场景</text>
+    <text x="510" y="248">全双工状态机</text><text x="510" y="296" fill="#8b98a9" font-size="10">barge-in · 延迟预算 · 恢复</text>
+    <text x="620" y="248">会话录制/重放</text><text x="620" y="296" fill="#8b98a9" font-size="10">字节级确定性 · 会话 diff</text>
+    <text x="730" y="248">级联 vs 端到端</text><text x="730" y="296" fill="#8b98a9" font-size="10">同协议适配器 · 实测对比</text>
+    <text x="840" y="248">轮次指标</text><text x="840" y="296" fill="#8b98a9" font-size="10">F1 · 响应延迟 · 误打断率</text>
+  </g>
+
+  <!-- footer stats -->
+  <line x1="40" y1="345" x2="860" y2="345" stroke="#2a3a55" stroke-width="1"/>
+  <g font-size="12" text-anchor="middle">
+    <text x="150" y="375" fill="#f5f7fa" font-weight="700">1150+</text>
+    <text x="150" y="394" fill="#8b98a9" font-size="11">增量提交</text>
+    <text x="330" y="375" fill="#f5f7fa" font-weight="700">2900+</text>
+    <text x="330" y="394" fill="#8b98a9" font-size="11">自动化测试</text>
+    <text x="510" y="375" fill="#f5f7fa" font-weight="700">0</text>
+    <text x="510" y="394" fill="#8b98a9" font-size="11">外部依赖服务 · 全离线可复现</text>
+    <text x="720" y="375" fill="#f5f7fa" font-weight="700">NumPy 核心</text>
+    <text x="720" y="394" fill="#8b98a9" font-size="11">PyTorch(CPU) 仅为可选 extra</text>
+  </g>
+  <text x="450" y="418" text-anchor="middle" font-size="10.5" fill="#5c6b80">所有测量数字均来自带植入基准的合成实验 · 不宣称真实数据集成绩</text>
+</svg>
