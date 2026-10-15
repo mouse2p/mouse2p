@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="Wang Yuanyi — Speech Recognition & End-to-End Spoken Dialogue · HKU">
+  <img src="assets/header.svg" width="100%" alt="Wang Yuanyi — Speech Recognition & End-to-End Spoken Dialogue">
 </p>
 
 <p align="center">
