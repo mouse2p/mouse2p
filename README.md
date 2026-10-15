@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="Wang Yuanyi — Speech Recognition & End-to-End Spoken Dialogue ">
+  <img src="assets/header.svg" width="100%" alt="Wang Yuanyi — Speech Recognition & End-to-End Spoken ">
 </p>
 
 <p align="center">
   <a href="https://github.com/mouse2p/echoscribe"><img src="https://img.shields.io/badge/EchoScribe-streaming_ASR-4a9eff?style=flat-square" alt="EchoScribe"></a>
   <a href="https://github.com/mouse2p/echoparley"><img src="https://img.shields.io/badge/EchoParley-spoken_dialogue-e0a83c?style=flat-square" alt="EchoParley"></a>
   <img src="https://img.shields.io/badge/Python-3.11+%20%7C%203.12%20%7C%203.13-3776ab?style=flat-square&logo=python&logoColor=white" alt="Python versions">
-  <img src="https://img.shields.io/badge/license-MIT-2ea44f?style=flat-square" alt="MIT license">
+  <img src="https://img.shields.io/badge/license-MIT-2ea44f?style=flat-square" alt="">
 </p>
 
 ### 关于我
